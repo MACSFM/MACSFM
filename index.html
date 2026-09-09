@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MacsFM — Trading Signals, Courses & Market Talk</title>
+<meta name="description" content="MacsFM is your frequency for trading education, live market signals, and courses built from real trade experience.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="wordmark">MACS<span>FM</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#signals">Signals</a>
+      <a href="#results">Results</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#register" class="btn btn-accent nav-register">Register</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="frequency">104.5 — LIVE MARKET FREQUENCY</p>
+        <h1>Tune into<br>the market.</h1>
+        <p class="hero-sub">MacsFM turns real trade experience into signals, courses, and daily market breakdowns — broadcast straight to you.</p>
+        <div class="hero-actions">
+          <a href="#register" class="btn btn-accent">Register free</a>
+          <a href="#courses" class="btn btn-ghost">View courses</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 480 320" class="waveform-svg">
+          <line x1="0" y1="160" x2="480" y2="160" class="wf-baseline"/>
+          <polyline class="wf-line" points="0,160 30,160 45,90 60,200 75,160 110,160 125,60 140,230 155,160 190,160 205,120 220,180 235,160 270,160 285,40 300,250 315,160 350,160 365,100 380,190 395,160 430,160 445,70 460,220 480,160"/>
+          <g class="wf-candles">
+            <rect x="55" y="140" width="10" height="40"/>
+            <rect x="120" y="80" width="10" height="90"/>
+            <rect x="200" y="130" width="10" height="55"/>
+            <rect x="280" y="60" width="10" height="130"/>
+            <rect x="360" y="110" width="10" height="70"/>
+            <rect x="440" y="90" width="10" height="100"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-text">
+        <h2>The voice behind the signal.</h2>
+        <p>Macs has spent years in the charts — not talking about trading, but doing it, documenting funded account journeys and market calls in real time on YouTube. MacsFM is where that experience gets organized: courses that teach the actual process, and a signal feed that shows the calls as they happen.</p>
+        <p>No recycled theory. Every lesson and every signal traces back to a real position, win or loss.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat"><span class="stat-num">1000+</span><span class="stat-label">Signals broadcast</span></div>
+        <div class="stat"><span class="stat-num">6</span><span class="stat-label">Courses live</span></div>
+        <div class="stat"><span class="stat-num">Daily</span><span class="stat-label">Market breakdowns</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="courses">
+    <div class="section-inner">
+      <h2>Courses on air</h2>
+      <p class="section-lead">Structured lessons built from the same process used in live trades — pick the frequency that matches where you're at.</p>
+      <div class="course-grid">
+
+        <article class="course-card">
+          <p class="course-level">Beginner</p>
+          <h3>Reading the Market</h3>
+          <p>Chart structure, market phases, and the vocabulary you need before placing a single trade.</p>
+          <div class="course-meta">
+            <span class="course-price">$99</span>
+            <a href="#register" class="course-link">View course →</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <p class="course-level">Intermediate</p>
+          <h3>Signal & Setup</h3>
+          <p>How MacsFM signals are built — entries, confirmations, and risk sizing on real setups.</p>
+          <div class="course-meta">
+            <span class="course-price">$249</span>
+            <a href="#register" class="course-link">View course →</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <p class="course-level">Advanced</p>
+          <h3>Funded Account Blueprint</h3>
+          <p>The exact framework used to pass funded evaluations and manage a live funded account.</p>
+          <div class="course-meta">
+            <span class="course-price">$399</span>
+            <a href="#register" class="course-link">View course →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="signals">
+    <div class="section-inner">
+      <h2>Live signal feed</h2>
+      <p class="section-lead">A running log of recent calls. Direction, instrument, and outcome — no cherry-picking.</p>
+      <div class="signal-feed">
+
+        <div class="signal-row">
+          <span class="signal-time">09:14</span>
+          <span class="signal-pair">EUR/USD</span>
+          <span class="signal-dir up">LONG</span>
+          <span class="signal-result up">+1.8R</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-time">11:02</span>
+          <span class="signal-pair">NAS100</span>
+          <span class="signal-dir down">SHORT</span>
+          <span class="signal-result up">+2.4R</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-time">13:47</span>
+          <span class="signal-pair">GBP/JPY</span>
+          <span class="signal-dir up">LONG</span>
+          <span class="signal-result down">-1.0R</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-time">15:20</span>
+          <span class="signal-pair">GOLD</span>
+          <span class="signal-dir up">LONG</span>
+          <span class="signal-result up">+3.1R</span>
+        </div>
+
+      </div>
+      <p class="signal-note">Full signal history and live alerts are available to registered members.</p>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="results">
+    <div class="section-inner">
+      <h2>What listeners say</h2>
+      <div class="testimonial-grid">
+
+        <blockquote class="testimonial">
+          <p>"The Funded Account Blueprint course is the reason I finally passed my evaluation. Straightforward, no fluff."</p>
+          <cite>— D. Owusu</cite>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>"I've followed the signal feed for three months. The transparency around losses is what sold me — nobody else shows that."</p>
+          <cite>— R. Mendes</cite>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>"Reading the Market finally made price action click for me after years of confusing YouTube tutorials."</p>
+          <cite>— T. Achieng</cite>
+        </blockquote>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="blog">
+    <div class="section-inner">
+      <h2>From the broadcast</h2>
+      <p class="section-lead">Market notes and breakdowns, posted as the charts move.</p>
+      <div class="blog-grid">
+
+        <article class="blog-card">
+          <p class="blog-date">Sep 8</p>
+          <h3>Why Gold Keeps Ignoring the Dollar</h3>
+          <p>A look at the diverging correlation and what it means for this week's setups.</p>
+        </article>
+
+        <article class="blog-card">
+          <p class="blog-date">Sep 3</p>
+          <h3>Risk Sizing After a Losing Week</h3>
+          <p>The adjustment process used on the funded account after three straight red days.</p>
+        </article>
+
+        <article class="blog-card">
+          <p class="blog-date">Aug 27</p>
+          <h3>Reading NAS100 Into NFP</h3>
+          <p>Pre-news positioning, and why most traders get the timing wrong.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt register-section" id="register">
+    <div class="section-inner register-inner">
+      <h2>Get on frequency.</h2>
+      <p class="section-lead">Register free for signal alerts, new course drops, and the weekly market breakdown.</p>
+      <form class="register-form" id="register-form">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <button type="submit" class="btn btn-accent">Register</button>
+      </form>
+      <p class="form-note" id="form-note"></p>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="section-inner contact-grid">
+      <div>
+        <h2>Get in touch</h2>
+        <p class="section-lead">Questions about a course, a partnership, or the signal feed — send a message.</p>
+        <form class="contact-form" id="contact-form">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="message" placeholder="Message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-outline">Send message</button>
+        </form>
+        <p class="form-note" id="contact-note"></p>
+      </div>
+      <div class="socials">
+        <h3>Follow the frequency</h3>
+        <ul>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">X (Twitter)</a></li>
+          <li><a href="#">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="wordmark small">MACS<span>FM</span></span>
+    <p>© 2026 MacsFM. Trading involves risk. Nothing here is financial advice.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

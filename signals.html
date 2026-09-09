@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signals — MacsFM</title>
+<meta name="description" content="A transparent, running log of MacsFM's recent trade calls.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="index.html" class="wordmark">MACS<span>FM</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="signals.html" class="active">Signals</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="register.html" class="btn btn-accent nav-register">Register</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <p class="eyebrow">MARKET DESK</p>
+      <h1>Live signal feed</h1>
+      <p>A running log of recent calls. Direction, instrument, and outcome — no cherry-picking.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="signal-feed">
+
+        <div class="signal-row">
+          <span class="signal-time">09:14</span>
+          <span class="signal-pair">EUR/USD</span>
+          <span class="signal-dir up">LONG</span>
+          <span class="signal-result up">+1.8R</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-time">11:02</span>
+          <span class="signal-pair">NAS100</span>
+          <span class="signal-dir down">SHORT</span>
+          <span class="signal-result up">+2.4R</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-time">13:47</span>
+          <span class="signal-pair">GBP/JPY</span>
+          <span class="signal-dir up">LONG</span>
+          <span class="signal-result down">-1.0R</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-time">15:20</span>
+          <span class="signal-pair">GOLD</span>
+          <span class="signal-dir up">LONG</span>
+          <span class="signal-result up">+3.1R</span>
+        </div>
+
+      </div>
+      <p class="signal-note">Full signal history and live alerts are available to registered members. <a href="register.html" class="course-link">Register free →</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="wordmark small">MACS<span>FM</span></span>
+    <p>© 2026 MacsFM. Trading involves risk. Nothing here is financial advice.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
